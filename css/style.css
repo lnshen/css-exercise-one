@@ -29,23 +29,21 @@ h1 {
 section {
   margin: 0 auto;
   width: 60%;
+  padding-top: 90px;
 }
 
 h3 {
   font-size: 1.3em;
 }
 
-.element, .element-two {
+.element {
   height: 100px;
   margin: 10px 0;
   width: 100%;
-}
-
-/** differentiating bg colors between smaller div elements **/
-
-.element {
   background-color: green;
 }
+
+/** differentiating bg color for smaller div elements **/
 
 .element-two {
   background-color: blue;
